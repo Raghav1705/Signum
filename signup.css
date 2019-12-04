@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: avenir;
+  margin: 2em;
+  color: #7E4900;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: #7E4900;
+}
+
+.text {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.var {
+  margin: 10px;
+}
+
+.buttons {
+  background-color: tan;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight:bold;
+}
+
+.signup_box {
+  background-color: #F9CFAC;
+  display: flex;
+  flex-direction: column;
+  justify: center;
+  margin-top: 6%;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 5%;
+  padding-right: 5%;
+  border-radius: 5px;
+}

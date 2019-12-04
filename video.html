@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="WhoWeAre.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass|Staatliches&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+      <div class='row1'>
+            <div class="column1">
+                <div class="logo">
+                  <div id='logo'>
+                    <a href="index.html">
+                      <img src="signum-2.png" alt="">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class='column3'>
+                <button id='login'>
+                  <h2><a href="login.html">
+                  Login
+                  </a></h2>
+                  <p>Don't have an account?
+                  <a href="signup.html"> Sign up</a>
+                  </p>
+                </button>
+            </div>
+    </div>
+
+    <div class='row2'>
+        <div class="column1">
+            <div class="link">
+              <div id="heading">
+              <a href="WhoWeAre.html">
+                    Who We Are
+              </a>
+            </div>
+
+            </div>
+
+              <div class="link">
+                <div id="heading">
+                  <a href="WhatWeDo.html">
+                  What We Do
+                  </a>
+                </div>
+              </div>
+
+              <div class="link">
+                <div id="heading">
+                  <a href="HowItWorks.html">
+                  How It Works
+                  </a>
+                </div>
+              </div>
+            <div class="link">
+              <div id="webcam-icon">
+              <div id="heading">
+                <a href="video.html">
+                  <div id="video">
+                    <img src="webcam.png" alt="">
+                  </div>
+                </a>
+              </div>
+              </div>
+            </div>
+        </div>
+
+
+          <div class="column2">
+            <div class='inline-row1'>
+                <h1> Video Call </h1>
+            </div>
+
+            <div class="inline-row2">
+                <div id="console"></div>
+              <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+
+            </div>
+          </div>
+    </div>
+
+
+    <script src="video.js"></script>
+  </body>
+</body>
+</html>

@@ -1,0 +1,148 @@
+
+html, body {
+    margin: 0px;
+    font-family: 'Overpass','Staatliches', 'Avenir';
+    font-stretch: expanded;
+    color: #7E4900;
+    font-size: 30px;
+}
+
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+}
+
+.logo img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 15%;
+}
+
+#logo a:hover {
+    opacity: 0.6;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+  margin-right: 100px;
+}
+
+#login {
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+#login a{
+  text-decoration: none;
+  color: #7E4900;
+}
+
+#login a:hover {
+  transform: scale(1.4);
+  opacity: 0.6;
+  color: #4a4237;
+}
+
+/* don't edit above this*/
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#heading {
+  width: 350px;
+  margin-bottom: 10%;
+}
+
+#heading a{
+  text-decoration: none;
+  color: #7E4900;
+}
+
+#heading a:hover {
+  cursor: pointer;
+  background: #F9CFAC;
+}
+
+#webcam-icon a:hover {
+  background: none;
+  transform: scale(1.2);
+}
+
+.column2 {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column2 a {
+  text-decoration: none;
+  color: #7E4900;
+}
+
+.column2 a:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+  cursor: pointer;
+  color: #4a4237;
+}
+
+#heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.row3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clickme {
+  text-align: center;
+  font-weight: bold;
+}
+
+#video img {
+  width: 75px;
+}
+
+#console {
+  width: 500px;
+  height: 150px;
+}
+
+#webcam {
+  transform: scaleX(-1);
+}
